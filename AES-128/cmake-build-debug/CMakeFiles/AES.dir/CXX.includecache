@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/code/AES-128/AES.cpp
+func.h
+/home/sun/code/AES-128/func.h
+
+/home/sun/code/AES-128/func.h
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+stdlib.h
+-
+

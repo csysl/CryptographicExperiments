@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/code/ECC/ECC.cpp
+func.h
+/home/sun/code/ECC/func.h
+
+/home/sun/code/ECC/func.h
+iostream
+-
+random
+-
+string
+-
+algorithm
+-
+unordered_map
+-
+

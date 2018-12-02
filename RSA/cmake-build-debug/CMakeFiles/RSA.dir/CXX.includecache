@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/code/RSA/func.h
+iostream
+-
+random
+-
+fstream
+-
+string
+-
+
+/home/sun/code/RSA/main.cpp
+func.h
+/home/sun/code/RSA/func.h
+

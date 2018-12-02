@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/code/DES/func.h
+iostream
+-
+string
+-
+bitset
+-
+utility
+-
+cstring
+-
+fstream
+-
+
+/home/sun/code/DES/main.cpp
+func.h
+/home/sun/code/DES/func.h
+

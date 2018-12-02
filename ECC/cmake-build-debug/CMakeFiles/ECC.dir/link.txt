@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ECC.dir/main.cpp.o CMakeFiles/ECC.dir/ECC.cpp.o  -o ECC 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DES.dir/main.cpp.o CMakeFiles/DES.dir/function.cpp.o  -o DES 
